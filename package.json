@@ -1,0 +1,32 @@
+{
+  "name": "swr-hono",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.6.2",
+    "next": "14.2.12",
+    "react": "^18",
+    "react-dom": "^18",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "^0.24.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.12",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
